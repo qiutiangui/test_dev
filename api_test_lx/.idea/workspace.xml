@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dc667a9-c428-4b99-a324-839fe0d77c17" name="Default Changelist" comment="">
+    <list default="true" id="bfa70584-6339-4ae9-a087-19209b0e4fd2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/api_test_lx.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case/test_dev.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/data_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/read_yml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/requests_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/conftest.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/login.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/query.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../itest_platform/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../itest_platform/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../itest_platform/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
@@ -23,8 +43,10 @@
       <change afterPath="$PROJECT_DIR$/../itest_platform/project_manage/templates/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../itest_platform/project_manage/templates/hello.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../itest_platform/project_manage/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itest_platform/project_manage/templates/manage.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../itest_platform/project_manage/tests.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../itest_platform/project_manage/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite/.idea/mysite.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mysite/polls/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite/mysite/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite/mysite/urls.py" afterDir="false" />
@@ -45,7 +67,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1n8hS4umqoPVzrUS6vf9hTeu0eJ" />
+  <component name="ProjectId" id="1nTa2n06qVzlxB64R6WCh9Soa0P" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -55,16 +77,82 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../itest_platform" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\pythoncode\code\Project20210116\case" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pythoncode\test_dev\api_test_lx\data" />
+      <recent name="D:\pythoncode\test_dev\api_test_lx\case" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_mark">
+  <component name="RunManager" selected="Python.test_dev">
+    <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="api_test_lx" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conftest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="data_common (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="api_test_lx" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/data_common.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="data_common" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="api_test_lx" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/data_common.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="Project20210116" />
+      <module name="api_test_lx" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -84,19 +172,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Project20210116" />
+    <configuration name="read_yml" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="api_test_lx" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/read_yml.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,8 +193,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_fixture (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Project20210116" />
+    <configuration name="test_dev" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="api_test_lx" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -117,70 +205,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/test_fixture.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_mark" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Project20210116" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/test_mark.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_parametrize" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Project20210116" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/test_parametrize.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_skip" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Project20210116" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/test_skip.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/test_dev.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,22 +216,22 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_mark" />
-        <item itemvalue="Python.test_fixture (1)" />
-        <item itemvalue="Python.test_skip" />
-        <item itemvalue="Python.test_parametrize" />
-        <item itemvalue="Python.run" />
+        <item itemvalue="Python.test_dev" />
+        <item itemvalue="Python.data_common" />
+        <item itemvalue="Python.read_yml" />
+        <item itemvalue="Python.data_common (1)" />
+        <item itemvalue="Python.conftest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6dc667a9-c428-4b99-a324-839fe0d77c17" name="Default Changelist" comment="" />
-      <created>1610777622068</created>
+      <changelist id="bfa70584-6339-4ae9-a087-19209b0e4fd2" name="Default Changelist" comment="" />
+      <created>1611416329857</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1610777622068</updated>
+      <updated>1611416329857</updated>
     </task>
     <servers />
   </component>
@@ -220,58 +245,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="431" y="191" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610896598749">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="191" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1610896598749" />
-    <state x="496" y="107" key="FileChooserDialogImpl" timestamp="1611155481238">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="496" y="107" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611155481238" />
-    <state width="1495" height="271" key="GridCell.Tab.0.bottom" timestamp="1610896326706">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1495" height="271" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610896326706" />
-    <state width="1495" height="271" key="GridCell.Tab.0.center" timestamp="1610896326705">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1495" height="271" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610896326705" />
-    <state width="1495" height="271" key="GridCell.Tab.0.left" timestamp="1610896326704">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1495" height="271" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610896326704" />
-    <state width="1495" height="271" key="GridCell.Tab.0.right" timestamp="1610896326705">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1495" height="271" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610896326705" />
-    <state width="1495" height="208" key="GridCell.Tab.1.bottom" timestamp="1610894053725">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1495" height="208" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610894053725" />
-    <state width="1495" height="208" key="GridCell.Tab.1.center" timestamp="1610894053724">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1495" height="208" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1610894053724" />
-    <state width="1495" height="208" key="GridCell.Tab.1.left" timestamp="1610894053723">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1495" height="208" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1610894053723" />
-    <state width="1495" height="208" key="GridCell.Tab.1.right" timestamp="1610894053725">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1495" height="208" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1610894053725" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

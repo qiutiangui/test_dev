@@ -3,11 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        .input {
+        margin-left:20px;
+        height:20px;
+        border-style:solid;
+        border-color: #CCFF33;
+        border-radius:6px!important;
+        }
+        .size{
+         color:red;
+        }
+    </style>
 </head>
+
 <body>
-<form>
-username: <input type="text" name="firstname"><br>
-password: <input type="text" name="lastname">
+<form method="post" action="/index/">
+    username: <input type="text" name="username" class="input"><br>
+    password: <input type="password" name="password" class="input"><br>
+    {{ error }}<br>
+    {% csrf_token %}
+    <input type="submit" value="login"><br>
 </form>
 
 </body>

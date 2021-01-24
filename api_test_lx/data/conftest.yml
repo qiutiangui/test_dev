@@ -1,2 +1,11 @@
-testip1: https://api.xdclass.net
-testip2: https://api.xdclass.net
+ip:
+  testip1: https://api.xdclass.net
+  testip2: https://api.xdclass.net
+
+username:
+  usernaem1: 张三
+  usernaem2: 张三
+
+pwd:
+  pwd1: 123456
+  pwd2: 123456

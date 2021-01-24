@@ -1,0 +1,7 @@
+test01:
+  name: 查询个人信息-成功
+  request:
+    url: /pub/api/v1/web/user_info
+    method: get
+    headers:
+      "token": $token
