@@ -1,0 +1,9 @@
+test01:
+  name: 登录
+  request:
+    url: https://api.xdclass.net/pub/api/v1/web/web_login
+    headers:
+      "Content-Type": application/x-www-form-urlencoded
+    body:
+      "phone": 15626592199
+      "pwd": 755899tian
